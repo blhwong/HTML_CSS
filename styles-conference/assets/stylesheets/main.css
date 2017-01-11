@@ -334,6 +334,15 @@ body {
   color: #648880;
 }
 
+.nav li {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.nav li:last-child {
+  margin-right: 0;
+}
 /*
   ========================================
   Rows
@@ -371,4 +380,22 @@ body {
 .lead p {
   font-size: 21px;
   line-height: 33px;
+}
+
+/*
+  ========================================
+  Speakers
+  ========================================
+*/
+
+.speaker-info {
+  margin-top: 88px;
+  padding: 22px 0;
+  border-radius: 5px;
+  border: 1px solid #dfe2d5;
+  text-align: center;
+}
+
+.speaker {
+  margin-bottom: 44px;
 }
